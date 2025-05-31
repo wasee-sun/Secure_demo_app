@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    margin-bottom: 20px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+.notes-list li {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.notes-list li p {
+    margin: 0 0 10px 0;
+}
+
+.notes-list li small {
+    color: #777;
+}
